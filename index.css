@@ -1,3 +1,118 @@
-.p1{
-    background-color: cornflowerblue;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.signup {
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    margin-left: 50px;
+    padding-left: 150px;
+    padding-right: 50px;
+    margin-top: 150px;
+    color: rgba(0, 0, 0, 0.991);
+    background-color: rgb(214, 164, 174);
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 30px 40px 1000px rgb(214, 164, 174);
+    border-radius: 30px;
+}
+
+.signup-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-image: url("https://th.bing.com/th/id/OIP.wx9qp48JVfucD2J_kK430gHaE7?w=261&h=180&c=7&r=0&o=7&dpr=1.8&pid=1.7&rm=3");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    backdrop-filter: blur(200px);
+}
+    .align {
+        padding-left: 90px;
+        font-size: 20px;
+    }
+
+    .data input {
+        border: none;
+        border-radius: 5px;
+        height: 25px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .logo-image {
+        height: 100px;
+        width: 150px;
+        padding-right: 900px;
+        object-fit: contain;
+    }
+
+    .header-container {
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        border-bottom-left-radius: 45px;
+        border-bottom-right-radius: 45px;
+    }
+
+    .head-items {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        justify-content: center;
+        color: burlywood;
+        font-size: 35px;
+    }
+
+    .head-items li {
+        list-style: none;
+        font-size: 30px;
+    }
+
+
+
+
+
+
+    .datas {
+        height: 400px;
+        width: 400px;
+        border: 2px solid black;
+        margin-left: 50px;
+        padding-left: 150px;
+        padding-right: 50px;
+        margin-top: 150px;
+        color: rgba(0, 0, 0, 0.991);
+        background-color: rgb(214, 164, 174);
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 30px 40px 1000px rgb(214, 164, 174);     
+
+    }
+    .login-body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-image: url("https://th.bing.com/th/id/OIP.wx9qp48JVfucD2J_kK430gHaE7?w=261&h=180&c=7&r=0&o=7&dpr=1.8&pid=1.7&rm=3");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    backdrop-filter: blur(200px);
 }
