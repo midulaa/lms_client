@@ -75,13 +75,26 @@ body {
         justify-content: center;
         color: burlywood;
         font-size: 35px;
+        text-decoration: none;
     }
 
     .head-items li {
         list-style: none;
         font-size: 30px;
+         text-decoration: none;
     }
 
+    .head-items a{
+        letter-spacing:0.1rem;
+        text-decoration: none;
+        color:burlywood;
+        transition: 1s;
+
+    }
+    .head-items a:hover{
+        letter-spacing:0;
+        color:aqua;
+    }
 
 
 
@@ -116,3 +129,56 @@ body {
     object-fit: cover;
     backdrop-filter: blur(200px);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.box{
+    height:200px;
+    width:200px;
+    background-image:url("https://th.bing.com/th/id/OIP.wxd_Pt19FehueXLBF7c9ogHaFj?w=243&h=182&c=7&r=0&o=7&dpr=1.8&pid=1.7&rm=3") ;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    object-fit:contain;
+    transition:1s;
+}
+.box:hover{
+    background-image:url("https://th.bing.com/th/id/OIP.btfvVphnhDyngMlEBqjwOQHaFj?w=236&h=180&c=7&r=0&o=7&dpr=1.8&pid=1.7&rm=3");
+    transform:scale(1.1) rotate(180deg);
+}
+
+
+
+
+
+
+
+
+.vi-bg{
+position: fixed;
+top: 8;
+left: 0;
+height: 100vh;
+width: 100vw;
+object-fit: cover;
+z-index: -1;
+}
+
+
+.content {
+z-index: 10;
+color: white;
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;}
