@@ -1,0 +1,43 @@
+#calculator {
+    border: 2px solid black;
+    height: 530px;
+    width: 400px;
+    margin-left:32%;
+    margin-top:40px;
+}
+input{
+width:350px;
+height:60px;
+margin-left:24px;
+margin-top:20px;
+background-color: rgb(221, 221, 224);
+}
+#grid-cal{
+    display: grid;
+    grid-template-columns: repeat(4,80px);
+    grid-template-rows: repeat(4,70px);
+    gap:10px;
+    padding:25px;
+    margin-bottom:10px;
+    font-size:x-large;
+}
+.equalit{
+    grid-row:span 4;
+    background-color:rgb(123, 163, 238);
+    font-size:x-large;
+}
+.lit{
+    width:80px;
+    height:70px;
+    font-size:x-large;
+
+}
+.iit{
+    background-color: rgb(135, 132, 132);
+    font-size:x-large;
+
+}
+.it{
+    font-size:x-large;
+
+}
