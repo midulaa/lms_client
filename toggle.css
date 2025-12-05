@@ -16,8 +16,9 @@ body{
 }
 body.dark{
     background: #121212;
+    color:#ccc;
 }
-body.dark.toogle-card{
+body.dark .toogle-card{
     background: rgba(20,20,20,0.9);
     box-shadow: 0px 4px 18px rgba(0,0,0,0,7) ;
 
